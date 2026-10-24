@@ -1,0 +1,8 @@
+path: /home/ainur-ubuntu/RET503-Computer-Vision-and-Deep-Learning/Projek1_YOLO/dataset_v1
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: person
+  1: laptop
+  2: cup

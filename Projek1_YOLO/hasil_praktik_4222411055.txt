@@ -1,0 +1,17 @@
+==============================================================================
+  PRAKTIK TERPADU MINGGU 4-7 - RET503
+==============================================================================
+  NIM / Nama    : 4222411055 / Mohammad Ainur Rofiq
+  Waktu         : 24-10-2026 23:21:57
+  Komputer/user : ainur-ubuntu-G3-3579 / ainur-ubuntu
+  Dataset       : dataset_v1  (sidik jari label: CB3FD0763537)
+  Pengaturan    : model yolo26n, epochs 30, imgsz 416, batch 8
+==============================================================================
+  Eksperimen     Perubahan        mAP50  mAP50-95      P      R     ms   menit
+  E1_pretrained  -                0.567     0.367  0.732  0.510    4.7     5.2
+  E2_scratch     -                0.007     0.002  0.693  0.027    4.6     6.8
+  E3_tuning      imgsz=640        0.628     0.413  0.706  0.639    8.9     7.8
+==============================================================================
+  Model terpilih (mAP50-95 val tertinggi): E3_tuning
+  Hasil di data TEST (sekali saja)       : mAP50 0.785 | mAP50-95 0.624
+==============================================================================

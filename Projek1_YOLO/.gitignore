@@ -6,3 +6,5 @@ dataset_yolo/
 hasil_balik/
 *.zip
 /*.pt
+dataset_yolo_lama/
+dataset_yolo_lama/

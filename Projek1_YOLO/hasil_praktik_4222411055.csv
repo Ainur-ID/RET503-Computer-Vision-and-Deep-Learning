@@ -1,0 +1,4 @@
+eksperimen,perubahan,pretrained,mAP50,mAP50-95,precision,recall,inferensi_ms,waktu_latih_menit,imgsz,bobot
+E1_pretrained,-,True,0.5671,0.3673,0.7322,0.5096,4.66,5.25,416,/home/ainur-ubuntu/RET503-Computer-Vision-and-Deep-Learning/Projek1_YOLO/hasil_praktik/E1_pretrained/weights/best.pt
+E2_scratch,-,False,0.0072,0.0019,0.6934,0.0267,4.64,6.79,416,/home/ainur-ubuntu/RET503-Computer-Vision-and-Deep-Learning/Projek1_YOLO/hasil_praktik/E2_scratch/weights/best.pt
+E3_tuning,imgsz=640,True,0.6283,0.4126,0.7061,0.6394,8.91,7.79,640,/home/ainur-ubuntu/RET503-Computer-Vision-and-Deep-Learning/Projek1_YOLO/hasil_praktik/E3_tuning/weights/best.pt
